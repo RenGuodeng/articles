@@ -1,0 +1,26 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.welcome {
+    width: 500px;
+    height: 460px;
+    position: absolute;
+    left: 40%;
+    top: 35%;
+}
+
+.welcome .wel {
+    font-size: 24px;
+}
+
+.welcome i {
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
