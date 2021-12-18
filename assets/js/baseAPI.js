@@ -26,7 +26,7 @@ $.ajaxPrefilter(function(options) {
             localStorage.removeItem('token')
 
             // 2、强制跳转到登录界面
-            location.href = '/login.html'
+            window.parent.location.href = '/login.html'
         }
     }
 })

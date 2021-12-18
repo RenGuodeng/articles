@@ -78,3 +78,8 @@ function renderAvatar(user) {
         $('.text-avatar').html(first).show()
     }
 }
+
+function setNavSelected(origin, current) {
+    $(origin).addClass('layui-this')
+    $(current).removeClass('layui-this')
+}
